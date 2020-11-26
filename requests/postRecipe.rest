@@ -1,0 +1,20 @@
+POST http://localhost:3004/api/recipes
+Content-Type: application/json
+
+{
+      "title": "Asian Grilled Shrimp Salad",
+      "ingredients": [
+        "1 package Good Seasons Oriental Sesame Salad Dressing mix",
+        "1/3 cup(s) orange juice",
+        "1/4 cup(s) olive oil",
+        "2 tbsp dry sherry",
+        "1 lb shrimp, cleaned",
+        "1 pkg (10 oz) romaine lettuce",
+        "1 cup(s) cucumber",
+        "1/4 cup(s) green onion slices",
+        "1/4 cup(s) toasted slivered almonds",
+        "1/4 cup(s) chow mein noodles"
+      ],
+      "description": "Mix salad dressing mix, juice, oil and sherry until well blended. Reserve 1/4 cup(s) of the dressing mixture; refrigerate.\\nToss shrimp with remaining dressing mixture; cover. Refrigerate 1 hour to marinade. Drain; discard dressing mixture. Place shrimp on greased grill over medium-high heat. Grill 3 to 4 minutes on each side or until shrimp turn pink. Cool 5 minutes. Toss shrimp and remaining ingredients with reserved dressing mixture. Serve immediately. Serves 4",
+      "type": "Salads"
+    }
