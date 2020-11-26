@@ -4,6 +4,7 @@ const cors = require('cors')
 
 app.use(cors())
 app.use(express.json());
+app.use(express.static('build'))
 
 let recipes = [
   {
@@ -120,7 +121,7 @@ app.post("/api/recipes", (req, res) => {
   res.json(recipe);
 });
 
-const PORT = process.env.PORT || 3004;
+const PORT = process.env.PORT || 3001;
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });
