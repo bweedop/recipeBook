@@ -1,4 +1,4 @@
-POST http://localhost:3004/api/recipes
+POST http://localhost:3001/api/recipes
 Content-Type: application/json
 
 {
